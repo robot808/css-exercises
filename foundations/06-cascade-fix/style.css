@@ -17,18 +17,19 @@ body{
   font-weight: 800;
 }
 
+.confirm {
+  background: green;
+  color: white;
+  font-weight: bold;
+}
+
 .button {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   font-size: 20px;
 }
 
-#confirm-button {
-  background: green;
-  color: white;
-  font-weight: bold;
-} 
-.child {
+.text > .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
@@ -40,7 +41,8 @@ div.text {
   font-weight: 100;
 }
 
-.text .child {
-  color: red;
-  font-size: 14px;
+#confirm-button {
+  background: green;
+  color: white;
+  font-weight: bold;
 }
